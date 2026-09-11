@@ -1,0 +1,24 @@
+{
+  "name": "@rafafborges/componentes",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Componentes de interface reutilizáveis extraídos do Minhas Contas Web",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "peerDependencies": {
+    "next": ">=15",
+    "react": ">=19",
+    "react-dom": ">=19",
+    "react-icons": ">=5",
+    "tinycolor2": ">=1.6"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/tinycolor2": "^1.4.6",
+    "typescript": "^5"
+  }
+}
