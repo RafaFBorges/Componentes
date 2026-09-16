@@ -1,5 +1,47 @@
+# Dependências
 node_modules/
+.pnp
+.pnp.js
+package-lock.json.bak
+
+# Next.js (playground)
+.next/
+out/
+next-env.d.ts
+
+# Build / TypeScript
 dist/
+build/
+*.tsbuildinfo
+
+# Testes / cobertura
+coverage/
+
+# Variáveis de ambiente
+.env
+.env*.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 *.log
+
+# Editores / IDEs
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Sistema operacional
 .DS_Store
+Thumbs.db
+
+# Vercel (caso o playground seja publicado)
+.vercel
+
+# Diagnósticos do TypeScript no Next
 *.tsbuildinfo
