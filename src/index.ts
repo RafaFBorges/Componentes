@@ -1,6 +1,9 @@
 export { default as StyledButton } from './components/api/button'
 export type { StyledButtonProps } from './components/api/button'
 
+export { default as WindowButton } from './components/api/windowButton'
+export type { WindowButtonProps } from './components/api/windowButton'
+
 export { default as Text, TextTag } from './components/api/text'
 export type { TextProps } from './components/api/text'
 
@@ -24,3 +27,4 @@ export type { ThemeStyleProps } from './utils/hook/themeHook'
 
 export { lightenCor, isLight, getSideColor } from './utils/colors'
 export { validateEmail, notEmpty, validateStrongPassword, validateDate, isLeapYear } from './utils/validations'
+export { encrypt, decrypt } from './utils/crypto'
