@@ -30,3 +30,8 @@ export { validateEmail, notEmpty, validateStrongPassword, validateDate, isLeapYe
 export { encrypt, decrypt } from './utils/crypto'
 export { usePagination } from './utils/hook/usePagination'
 export type { UsePaginationProps, UsePaginationReturn, PaginationItem } from './utils/hook/usePagination'
+
+export { PopupProvider, usePopup, PopupPositionType } from './utils/hook/usePopup'
+export { PopupType, PopupInfo } from './types/popupTypes'
+export type { PopupContextType } from './types/popupTypes'
+export { default as Popup } from './components/api/popup'
