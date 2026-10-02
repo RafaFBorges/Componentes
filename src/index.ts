@@ -17,6 +17,8 @@ export { default as StyledInput } from './components/input/input'
 export type { StyledInputProps } from './components/input/input'
 
 export { default as PhoneInput } from './components/input/phoneInput'
+export { default as PasswordInput } from './components/input/passwordInput'
+export type { PasswordInputProps } from './components/input/passwordInput'
 
 export { default as ThemeButton } from './components/themeComponents/themeButton'
 export { default as ThemeText } from './components/themeComponents/themeText'
