@@ -9,7 +9,7 @@ import ThemeText from '../themeComponents/themeText'
 import { IconType } from 'react-icons'
 
 
-export interface ToogleProps {
+export interface ToggleProps {
   clickHandle?: () => void;
   width?: string;
   enabled?: boolean;
@@ -29,6 +29,8 @@ export interface ToogleProps {
   disableIconColor?: string;
 }
 
+export type ToogleProps = ToggleProps
+
 export default function Toggle({
   name,
   clickHandle,
@@ -46,7 +48,7 @@ export default function Toggle({
   DisableIcon = null,
   enableIconColor = '#000',
   disableIconColor = '#000',
-}: ToogleProps) {
+}: ToggleProps) {
   const [isHovered, setIsHovered] = useState<boolean>(false)
   const [isEnabled, setIsEnabled] = useState<boolean>(enabled)
 

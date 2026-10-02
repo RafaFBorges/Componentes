@@ -11,7 +11,7 @@ export { default as Link } from './components/api/link'
 export type { LinkProps } from './components/api/link'
 
 export { default as Toggle } from './components/api/toggle'
-export type { ToogleProps } from './components/api/toggle'
+export type { ToggleProps, ToogleProps } from './components/api/toggle'
 
 export { default as StyledInput } from './components/input/input'
 export type { StyledInputProps } from './components/input/input'
