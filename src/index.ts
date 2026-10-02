@@ -17,6 +17,8 @@ export { default as StyledInput } from './components/input/input'
 export type { StyledInputProps } from './components/input/input'
 
 export { default as PhoneInput } from './components/input/phoneInput'
+export { default as SpinInput } from './components/input/spinInput'
+export type { SpinInputProps } from './components/input/spinInput'
 export { default as PasswordInput } from './components/input/passwordInput'
 export type { PasswordInputProps } from './components/input/passwordInput'
 
