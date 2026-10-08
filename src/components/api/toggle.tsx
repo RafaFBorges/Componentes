@@ -5,7 +5,7 @@ import Image, { StaticImageData } from 'next/image'
 
 import { lightenCor } from '../../utils/colors'
 import { TextTag } from './text'
-import ThemeText from '../themeComponents/themeText'
+import Text from './text'
 import { IconType } from 'react-icons'
 
 
@@ -27,6 +27,7 @@ export interface ToggleProps {
   DisableIcon?: IconType | null;
   enableIconColor?: string;
   disableIconColor?: string;
+  labelColor?: string;
 }
 
 export type ToogleProps = ToggleProps
@@ -48,6 +49,7 @@ export default function Toggle({
   DisableIcon = null,
   enableIconColor = '#000',
   disableIconColor = '#000',
+  labelColor = '#121212',
 }: ToggleProps) {
   const [isHovered, setIsHovered] = useState<boolean>(false)
   const [isEnabled, setIsEnabled] = useState<boolean>(enabled)
@@ -62,7 +64,7 @@ export default function Toggle({
   }
 
   return <div style={styles.container}  >
-    {name != '' && <ThemeText noSelection noWrap textTag={TextTag.P} style={styles.title}>{name}</ThemeText>}
+    {name != '' && <Text noSelection noWrap textTag={TextTag.P} color={labelColor} style={styles.title}>{name}</Text>}
     <div
       onClick={handleClick}
       onMouseEnter={handleMouseEnter}
