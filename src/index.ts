@@ -44,3 +44,11 @@ export { default as DateInput, DateValue } from './components/input/dateInput'
 export type { DateInputProps, DateField } from './components/input/dateInput'
 export { default as Calendar, CalendarViewType, WEEK_DAYS, CALENDAR_ITEM_COUNT, MONTH_NAME } from './components/input/calendar'
 export type { CalendarProps, WeekDaysType } from './components/input/calendar'
+
+export { default as TagItem } from './components/api/tagItem'
+export type { TagItemProps } from './components/api/tagItem'
+
+export { default as Modal } from './components/api/modal'
+export type { ModalProps, ModalThemeProps } from './components/api/modal'
+export { ModalProvider, useModal } from './utils/hook/useModal'
+export type { ModalContentProps, ModalFormProps } from './types/modalTypes'
