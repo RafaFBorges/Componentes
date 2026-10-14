@@ -39,3 +39,8 @@ export { PopupProvider, usePopup, PopupPositionType } from './utils/hook/usePopu
 export { PopupType, PopupInfo } from './types/popupTypes'
 export type { PopupContextType } from './types/popupTypes'
 export { default as Popup } from './components/api/popup'
+
+export { default as DateInput, DateValue } from './components/input/dateInput'
+export type { DateInputProps, DateField } from './components/input/dateInput'
+export { default as Calendar, CalendarViewType, WEEK_DAYS, CALENDAR_ITEM_COUNT, MONTH_NAME } from './components/input/calendar'
+export type { CalendarProps, WeekDaysType } from './components/input/calendar'
