@@ -30,8 +30,6 @@ export interface ToggleProps {
   labelColor?: string;
 }
 
-export type ToogleProps = ToggleProps
-
 export default function Toggle({
   name,
   clickHandle,

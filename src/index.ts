@@ -11,7 +11,7 @@ export { default as Link } from './components/api/link'
 export type { LinkProps } from './components/api/link'
 
 export { default as Toggle } from './components/api/toggle'
-export type { ToggleProps, ToogleProps } from './components/api/toggle'
+export type { ToggleProps } from './components/api/toggle'
 
 export { default as StyledInput } from './components/input/input'
 export type { StyledInputProps } from './components/input/input'
@@ -67,3 +67,6 @@ export type { UseViewFormOptions } from './utils/hook/useViewForm'
 export { useForm } from './utils/hook/useForm'
 export type { UseFormProps, UseFormReturn } from './utils/hook/useForm'
 export type { FormInputField, FormState, getFieldValueResult } from './types/formTypes'
+
+export { default as LoginForm } from './components/api/loginForm'
+export type { LoginFormProps, LoginFormLabels } from './components/api/loginForm'

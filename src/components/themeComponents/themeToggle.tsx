@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { useTheme } from '../../utils/hook/themeHook'
-import Toggle, { ToogleProps } from '../api/toggle'
+import Toggle, { ToggleProps } from '../api/toggle'
 
 
 export default function ThemeToggle({
@@ -22,7 +22,7 @@ export default function ThemeToggle({
   DisableIcon = null,
   enableIconColor = '',
   disableIconColor = '',
-}: ToogleProps) {
+}: ToggleProps) {
   const { config } = useTheme()
 
   return <Toggle
